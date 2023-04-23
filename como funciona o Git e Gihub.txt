@@ -1,0 +1,55 @@
+=====COMO USAR O GIT E GITHUB =====
+Sistema de versionamento de codigos.
+
+Repositorios:
+Diretórios/pastas de armazenar projetos.
+
+Fork:
+Criar uma cópia do projeto de outro usuario para o seu repositório.
+
+Branch:
+Ramificação na timeline do projeto principal sem realizar nenhuma alteração.
+
+Commit:
+comando para salvar uma nova versão no repositório, tanto em uma branch quanto em no projeto principal.
+
+Merge:
+comando para unir duas branch.
+
+Remote:
+comando que interliga diretorio na maquina principal com o repositório do GitHub.
+
+Push:
+comando que empurra um commit para o Repsitório do GitHub.
+
+Pull:
+Puxa o Repositório do GitHub para o diretório da maquina principal.
+
+=====USANDO O GIT=====
+git --version:
+Checa a versão do Git
+
+git init:
+comando que inicializa, prepara e configura este repositório  pare realizar tudo que for nescessario.
+	obs:(master) que dizer que ja estamos na linha principal.
+
+git add nome do aquivo:
+comando que manda os arquivos para area de stage para ser preparado para commitar.
+
+git status:
+Informa a situação da execução do seu commit, se um arquivo está preparado para ser commitado.
+
+git commit -m "nome do seu commit"
+Comando para commitargit.
+
+git branch -m "main"
+Comando para alterar a nomeclatura da branch principal de master para main.
+
+======Agora vamos criar um novo repositório no github que seja igual a pasta que foi commitada======
+
+git remote add origin link do seu repositório:
+Esse comando sincroniza o seu diretório com seu seu repositório Github.
+
+git push -u origin main:
+comando para empurrar os commits do repositorio local para o repositório do Github.
+
